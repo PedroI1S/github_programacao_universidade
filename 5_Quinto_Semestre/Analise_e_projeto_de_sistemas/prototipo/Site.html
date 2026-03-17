@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clone do Site Game Hub</title>
+    <style>
+        /* Estilos Gerais */
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background-color: #1a1a1a;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Esconde todas as páginas por padrão */
+        .page {
+            display: none;
+        }
+
+        /* Mostra a página ativa */
+        .page.active {
+            display: block;
+        }
+
+        /* Cabeçalho */
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 2rem;
+            background-color: #2c2c2c;
+            border-bottom: 1px solid #444;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .header nav a {
+            color: #dcdcdc;
+            text-decoration: none;
+            margin-left: 1.5rem;
+            cursor: pointer;
+            transition: color 0.3s;
+        }
+        .header nav a:hover {
+            color: #ffffff;
+        }
+
+        /* Estilos da Página Inicial */
+        #home-page .main-banner {
+            position: relative;
+            text-align: center;
+            padding: 4rem 1rem;
+            background: url('https://images.gog-statics.com/0a94d8f8e6cb7b0e1a0c4f8c92a9c6a9a9a9c6a9a9a9c6a9a9a9c6a9/summer_sale_2024_banner.jpg') no-repeat center center/cover;
+            height: 300px;
+        }
+        #home-page .main-banner h1 {
+            font-size: 4rem;
+            margin: 0;
+            color: #ffffff;
+            text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+        }
+        #home-page .main-banner p {
+            font-size: 1.25rem;
+            color: #ffffff;
+            text-shadow: 1px 1px 4px rgba(0,0,0,0.7);
+        }
+        #home-page .game-listings {
+            padding: 2rem;
+        }
+        #home-page .game-listings h2 {
+            font-size: 1.75rem;
+            border-bottom: 1px solid #444;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        /* Estilos da Página de Ofertas */
+        #deals-page.active {
+            display: flex;
+            padding: 2rem;
+        }
+        .filters-sidebar {
+            width: 240px;
+            margin-right: 2rem;
+            flex-shrink: 0;
+        }
+        .filter-group {
+            margin-bottom: 1.5rem;
+        }
+        .filter-group h3 {
+            font-size: 1rem;
+            margin-bottom: 0.75rem;
+            color: #dcdcdc;
+        }
+        .filter-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+            cursor: pointer;
+        }
+        .filter-group input[type="checkbox"] {
+            margin-right: 0.5rem;
+        }
+        .price-range input[type="text"] {
+            width: 80px;
+            background-color: #333;
+            border: 1px solid #555;
+            color: #fff;
+            padding: 0.5rem;
+            border-radius: 4px;
+        }
+        .deals-main {
+            flex-grow: 1;
+        }
+        .deals-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1.5rem;
+        }
+        .deals-header h2 {
+            font-size: 1.5rem;
+            margin: 0;
+        }
+        .deals-header .search-bar input {
+            padding: 0.75rem;
+            background-color: #333;
+            border: 1px solid #555;
+            color: #fff;
+            border-radius: 4px;
+            width: 250px;
+        }
+        
+        /* Grade de Jogos (Reutilizável) */
+        .game-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 1.5rem;
+        }
+        .game-card {
+            background-color: #2c2c2c;
+            border-radius: 4px;
+            overflow: hidden;
+            text-align: left;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .game-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+        }
+        .game-card img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        .game-card .game-info {
+            padding: 1rem;
+        }
+        .game-card .title {
+            font-weight: bold;
+            font-size: 1rem;
+            margin-bottom: 0.5rem;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .game-card .price-section {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .game-card .discount {
+            background-color: #8bc34a;
+            color: #000;
+            padding: 0.2rem 0.5rem;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+        .game-card .price {
+            color: #a9e22e;
+            font-weight: bold;
+        }
+         .game-card .original-price {
+            text-decoration: line-through;
+            color: #888;
+            margin-right: 0.5rem;
+        }
+
+        /* Estilos da Página de Detalhes */
+        #details-page {
+            padding: 2rem 4rem;
+        }
+        .details-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid #444;
+        }
+        .details-header h1 {
+            margin: 0;
+        }
+        .buy-button {
+            background-color: #8bc34a;
+            color: #000;
+            padding: 1rem 2rem;
+            border-radius: 4px;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        .details-content {
+            margin-top: 2rem;
+        }
+        .details-content h2 {
+            font-size: 1.5rem;
+            border-bottom: 1px solid #444;
+            padding-bottom: 0.5rem;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+        }
+        .details-content p, .details-content ul {
+            line-height: 1.6;
+            color: #dcdcdc;
+        }
+        .details-gallery img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        
+        /* Overlay de Login */
+        .overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.8);
+            display: none; /* Inicia escondido */
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+        }
+        .overlay.active {
+            display: flex; /* Mostra quando ativo */
+        }
+        .login-popup {
+            background-color: #1e1e1e;
+            padding: 2rem;
+            border-radius: 8px;
+            width: 350px;
+            text-align: center;
+            position: relative;
+            z-index: 1001;
+        }
+        .login-popup .logo-text { font-size: 2rem; font-weight: bold; margin-bottom: 1.5rem; }
+        .login-popup h2 { font-size: 1.5rem; margin-top: 0; margin-bottom: 1.5rem; }
+        .login-popup input { width: calc(100% - 2rem); padding: 0.75rem; margin-bottom: 1rem; background-color: #333; border: 1px solid #555; color: #fff; border-radius: 4px; }
+        .login-popup .login-btn { width: 100%; padding: 0.75rem; background-color: #8bc34a; border: none; color: #000; font-weight: bold; cursor: pointer; border-radius: 4px; margin-bottom: 1rem; }
+        .login-popup .social-login button { width: 100%; padding: 0.75rem; margin-bottom: 0.5rem; border: none; border-radius: 4px; cursor: pointer; font-weight: bold; }
+        .login-popup .social-login .google-btn { background-color: #4285F4; color: #fff; }
+        .login-popup .social-login .discord-btn { background-color: #7289DA; color: #fff; }
+        .login-popup a { color: #888; text-decoration: none; font-size: 0.875rem; margin-top: 1rem; display: inline-block; margin-left: 0.5rem; margin-right: 0.5rem; }
+        .close-popup { position: absolute; top: 10px; right: 15px; font-size: 1.5rem; color: #888; cursor: pointer; }
+    </style>
+</head>
+<body>
+
+    <header class="header">
+        <div class="logo" onclick="showPage('home-page')">Game Hub</div>
+        <nav>
+            <a onclick="showPage('deals-page')">LOJA</a>
+            <a href="#">SOBRE</a>
+            <a href="#">COMUNIDADE</a>
+            <a href="#">SUPORTE</a>
+            <a id="signin-btn">ENTRAR</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- PÁGINA INICIAL -->
+        <div id="home-page" class="page active">
+            <div class="main-banner">
+                <h1>PROMOÇÃO DE VERÃO</h1>
+                <p>Mais de 8000 ofertas com até -95%</p>
+            </div>
+            <div class="game-listings">
+                <h2>Destaques</h2>
+                <div class="game-grid">
+                    <div class="game-card" onclick="showPage('details-page')">
+                        <img src="M7.jpg" alt="Jogo 1">
+                        <div class="game-info">
+                            <div class="title">UFC 25</div>
+                            <div class="price-section"><span class="price">R$88,99</span></div>
+                        </div>
+                    </div>
+                    <div class="game-card" onclick="showPage('details-page')">
+                        <img src="M10.jpg" alt="CS2">
+                         <div class="game-info">
+                            <div class="title">Call of Juarez Bundle</div>
+                            <div class="price-section"><span class="price">R$30,39</span></div>
+                        </div>
+                    </div>
+                     <div class="game-card" onclick="showPage('details-page')">
+                        <img src="M2.jpg" alt="Jogo 3">
+                         <div class="game-info">
+                            <div class="title">Call of duty: MW2</div>
+                            <div class="price-section"><span class="price">R$15,29</span></div>
+                        </div>
+                    </div>
+                    <div class="game-card" onclick="showPage('details-page')">
+                        <img src="M1.jpg" alt="Bloons TD6">
+                         <div class="game-info">
+                            <div class="title">Bloons TD6</div>
+                            <div class="price-section"><span class="price">R$19,99</span></div>
+                        </div>
+                    </div>
+                    <div class="game-card" onclick="showPage('details-page')">
+                        <img src="M8.jpg" alt="Cyberpunk 2077">
+                         <div class="game-info">
+                            <div class="title">Cyberpunk 2077</div>
+                            <div class="price-section"><span class="price">R$329,99</span></div>
+                        </div>
+                    </div>
+                    <div class="game-card" onclick="showPage('details-page')">
+                        <img src="M14.jpg" alt="Phasmophobia">
+                         <div class="game-info">
+                            <div class="title">Phasmophobia</div>
+                            <div class="price-section"><span class="price">R$69,69</span></div>
+                        </div>
+                    </div>
+                    <div class="game-card" onclick="showPage('details-page')">
+                        <img src="M12.jpg" alt="Jogo 4">
+                         <div class="game-info">
+                            <div class="title">Terraria</div>
+                            <div class="price-section"><span class="price">R$69,69</span></div>
+                        </div>
+                    </div>
+                    <div class="game-card" onclick="showPage('details-page')">
+                        <img src="M6.jpg" alt="Jogo 4">
+                         <div class="game-info">
+                            <div class="title">Fallout</div>
+                            <div class="price-section"><span class="price">R$69,69</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- PÁGINA DE OFERTAS -->
+        <div id="deals-page" class="page">
+            <aside class="filters-sidebar">
+                <div class="filter-group">
+                    <label><input type="checkbox" checked> BONS E VELHOS JOGOS</label>
+                    <label><input type="checkbox"> Mostrar apenas com desconto</label>
+                </div>
+                <div class="filter-group">
+                    <h3>DLCs</h3>
+                    <label><input type="checkbox"> Esconder DLCs e extras</label>
+                </div>
+                <div class="filter-group">
+                    <h3>Faixa de Preço</h3>
+                    <div class="price-range">
+                        <input type="text" value="R$1,99"> - <input type="text" value="R$726,89">
+                    </div>
+                </div>
+                 <div class="filter-group">
+                    <h3>Status de Lançamento</h3>
+                    <label><input type="checkbox"> Novidades</label>
+                    <label><input type="checkbox"> Em breve</label>
+                    <label><input type="checkbox"> Acesso Antecipado</label>
+                </div>
+                <div class="filter-group">
+                    <h3>Gêneros</h3>
+                    <label><input type="checkbox"> Ação</label>
+                    <label><input type="checkbox"> Aventura</label>
+                    <label><input type="checkbox"> Corrida</label>
+                    <label><input type="checkbox"> RPG</label>
+                    <label><input type="checkbox"> Tiro</label>
+                    <label><input type="checkbox"> Simulação</label>
+                    <label><input type="checkbox"> Esportes</label>
+                </div>
+            </aside>
+            <section class="deals-main">
+                <div class="deals-header">
+                    <h2>Mostrando 8006 jogos em promoção</h2>
+                    <div class="search-bar">
+                        <input type="text" placeholder="🔎 Procurar por ofertas">
+                    </div>
+                </div>
+                <div class="game-grid">
+                    <!-- Linha 1 -->
+                    <div class="game-card" onclick="showPage('details-page')">
+                        <img src="M1.jpg" alt="Bloons TD6">
+                        <div class="game-info"><div class="title">Bloons TD6</div><div class="price-section"><span class="discount">-95%</span><div><span class="original-price">R$254,89</span><span class="price">R$1,29</span></div></div></div>
+                    </div>
+                    <div class="game-card" onclick="showPage('details-page')">
+                        <img src="M2.jpg" alt="Call of Duty: Modern Warfare 2">
+                        <div class="game-info"><div class="title">Call of Duty: Modern Warfare 2</div><div class="price-section"><span class="discount">-95%</span><div><span class="original-price">R$64,99</span><span class="price">R$2,29</span></div></div></div>
+                    </div>
+                     <div class="game-card" onclick="showPage('details-page')">
+                        <img src="M3.jpg" alt="The Witcher 3">
+                        <div class="game-info"><div class="title">The Witcher 3</div><div class="price-section"><span class="discount">-95%</span><div><span class="original-price">R$24,79</span><span class="price">R$1,29</span></div></div></div>
+                    </div>
+                    <div class="game-card" onclick="showPage('details-page')">
+                        <img src="M4.jpg" alt="Stardew Valley">
+                        <div class="game-info"><div class="title">Stardew Valley</div><div class="price-section"><span class="discount">-95%</span><div><span class="original-price">R$20,00</span><span class="price">R$1,99</span></div></div></div>
+                    </div>
+                    <!-- Linha 2 -->
+                    <div class="game-card" onclick="showPage('details-page')">
+                        <img src="M5.jpg" alt="Hollow Knight">
+                        <div class="game-info"><div class="title">Hollow Knight</div><div class="price-section"><span class="discount">-95%</span><div><span class="original-price">R$60,00</span><span class="price">R$2,99</span></div></div></div>
+                    </div>
+                    <div class="game-card" onclick="showPage('details-page')">
+                        <img src="M6.jpg" alt="Fallout: New Vegas">
+                        <div class="game-info"><div class="title">Fallout: New Vegas</div><div class="price-section"><span class="discount">-95%</span><div><span class="original-price">R$60,00</span><span class="price">R$3,49</span></div></div></div>
+                    </div>
+                     <div class="game-card" onclick="showPage('details-page')">
+                        <img src="M7.jpg" alt="UFC 25">
+                        <div class="game-info"><div class="title">UFC 25</div><div class="price-section"><span class="discount">-95%</span><div><span class="original-price">R$70,00</span><span class="price">R$3,99</span></div></div></div>
+                    </div>
+                    <div class="game-card" onclick="showPage('details-page')">
+                        <img src="M8.jpg" alt="Cyberpunk 2077">
+                        <div class="game-info"><div class="title">Cyberpunk 2077</div><div class="price-section"><span class="discount">-80%</span><div><span class="original-price">R$199,99</span><span class="price">R$39,99</span></div></div></div>
+                    </div>
+                    <!-- Linha 3 -->
+                     <div class="game-card" onclick="showPage('details-page')">
+                        <img src="M9.jpg" alt="Among Us">
+                        <div class="game-info"><div class="title">Among Us</div><div class="price-section"><span class="discount">-50%</span><div><span class="original-price">R$24,99</span><span class="price">R$12,49</span></div></div></div>
+                    </div>
+                    <div class="game-card" onclick="showPage('details-page')">
+                        <img src="M10.jpg" alt="CS2">
+                        <div class="game-info"><div class="title">CS2</div><div class="price-section"><span class="discount">-60%</span><div><span class="original-price">R$27,99</span><span class="price">R$11,19</span></div></div></div>
+                    </div>
+                     <div class="game-card" onclick="showPage('details-page')">
+                        <img src="M11.jpg" alt="Dead by Daylight">
+                        <div class="game-info"><div class="title">Dead by Daylight</div><div class="price-section"><span class="discount">-75%</span><div><span class="original-price">R$75,49</span><span class="price">R$18,87</span></div></div></div>
+                    </div>
+                    <div class="game-card" onclick="showPage('details-page')">
+                        <img src="M12.jpg" alt="Terraria">
+                        <div class="game-info"><div class="title">Terraria</div><div class="price-section"><span class="discount">-75%</span><div><span class="original-price">R$19,99</span><span class="price">R$4,99</span></div></div></div>
+                    </div>
+                    <div class="game-card" onclick="showPage('details-page')">
+                        <img src="M13.jpg" alt="Poly Bridge">
+                        <div class="game-info"><div class="title">Poly Bridge</div><div class="price-section"><span class="discount">-75%</span><div><span class="original-price">R$19,99</span><span class="price">R$4,99</span></div></div></div>
+                    </div>
+                    <div class="game-card" onclick="showPage('details-page')">
+                        <img src="M14.jpg" alt="Phasmophobia">
+                        <div class="game-info"><div class="title">Phasmophobia</div><div class="price-section"><span class="discount">-75%</span><div><span class="original-price">R$19,99</span><span class="price">R$4,99</span></div></div></div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- PÁGINA DE DETALHES DO JOGO -->
+        <div id="details-page" class="page">
+            <header class="details-header">
+                <h1>Cyberpunk 2077</h1>
+                <a href="#" class="buy-button">Adicionar ao Carrinho - R$199,90</a>
+            </header>
+            <div class="details-content">
+                <div class="details-gallery">
+                    <img src="cyberpunk.jpg" alt="Gameplay de Cyberpunk 2077">
+                </div>
+                <h2>Sobre o Jogo</h2>
+                <p>
+                    Cyberpunk 2077 é uma história de ação e aventura de mundo aberto ambientada em Night City, uma megalópole obcecada por poder, glamour e modificação corporal. Você joga como V, um mercenário fora da lei indo atrás de um implante único que é a chave para a imortalidade. Você pode personalizar o cyberware, o conjunto de habilidades e o estilo de jogo do seu personagem, e explorar uma vasta cidade onde as escolhas que você faz moldam a história e o mundo ao seu redor.
+                </p>
+                <h2>O que tem de legal?</h2>
+                <ul>
+                    <li>Mundo aberto massivo para explorar.</li>
+                    <li>História profunda e ramificada com consequências significativas.</li>
+                    <li>Personalização de personagem extensa.</li>
+                    <li>Combate dinâmico e intenso.</li>
+                </ul>
+                 <h2>Requisitos de Sistema (Windows)</h2>
+                <p>
+                    <strong>Mínimo:</strong> Requer um processador e sistema operacional de 64 bits. SO: Windows 10. Processador: Intel Core i7-6700 ou AMD Ryzen 5 1600. Memória: 12 GB de RAM. Placa de vídeo: GeForce GTX 1060 6GB ou Radeon RX 580 8GB. DirectX: Versão 12. Armazenamento: 70 GB de espaço disponível.
+                </p>
+            </div>
+        </div>
+    </main>
+
+    <!-- OVERLAY DE LOGIN -->
+    <div id="login-overlay" class="overlay">
+        <div class="login-popup">
+            <span id="close-popup-btn" class="close-popup">&times;</span>
+            <div class="logo-text">Game Hub</div>
+            <h2>ENTRAR</h2>
+            <form>
+                <input type="text" placeholder="Usuário">
+                <input type="password" placeholder="Senha">
+                <button type="submit" class="login-btn">ENTRAR AGORA</button>
+            </form>
+            <div class="social-login">
+                <button class="google-btn">ENTRAR COM O GOOGLE</button>
+                <button class="discord-btn">ENTRAR COM O DISCORD</button>
+            </div>
+            <a href="#">Redefinir senha</a>
+            <a href="#">Cadastre-se agora</a>
+        </div>
+    </div>
+
+    <script>
+        // Função para mostrar a página correta e esconder as outras
+        function showPage(pageId) {
+            // Esconde todas as páginas
+            document.querySelectorAll('.page').forEach(page => {
+                page.classList.remove('active');
+            });
+            // Mostra a página solicitada
+            const activePage = document.getElementById(pageId);
+            if (activePage) {
+                activePage.classList.add('active');
+            }
+            // Rola para o topo da página para dar a sensação de uma nova página
+            window.scrollTo(0, 0);
+        }
+
+        // Lógica do Popup de Login
+        const signinBtn = document.getElementById('signin-btn');
+        const loginOverlay = document.getElementById('login-overlay');
+        const closePopupBtn = document.getElementById('close-popup-btn');
+
+        signinBtn.addEventListener('click', () => {
+            loginOverlay.classList.add('active');
+        });
+
+        closePopupBtn.addEventListener('click', () => {
+            loginOverlay.classList.remove('active');
+        });
+        
+        // Clicar fora do popup também fecha
+        loginOverlay.addEventListener('click', (event) => {
+            if (event.target === loginOverlay) {
+                loginOverlay.classList.remove('active');
+            }
+        });
+
+
+        // Define a página inicial a ser exibida ao carregar
+        document.addEventListener('DOMContentLoaded', () => {
+            showPage('home-page');
+        });
+    </script>
+
+</body>
+</html>
