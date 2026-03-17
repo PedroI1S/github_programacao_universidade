@@ -10,4 +10,7 @@ Total de arquivos de programacao neste ramo: 25
 
 ## O que cada codigo faz
 
-- Esta pasta nao possui codigo diretamente; os codigos estao nas subpastas acima.
+- Esta pasta concentra projetos embarcados com MSP430 para exercicios de E/S, PWM, sensores e atuadores.
+- Micro erick: projetos práticos (encoder, servo, motor de passo, iluminacao e PWM).
+- SM46ELCP_Portas_ES_Ex_01_a_03: exercicios introdutorios de portas digitais e interrupcoes.
+- Trabalho_Final: radar ultrassonico com servo, sensor HC-SR04 e matriz de LEDs via SPI.

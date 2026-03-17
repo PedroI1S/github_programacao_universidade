@@ -9,4 +9,5 @@ Total de arquivos de programacao neste ramo: 3
 
 ## O que cada codigo faz
 
-- Esta pasta nao possui codigo diretamente; os codigos estao nas subpastas acima.
+- Projeto de iluminacao automatica com leitura analogica (LDR/ADC) e controle por PWM no MSP430.
+- A subpasta `.metadata` contem arquivos tecnicos do ambiente Eclipse/CCS (nao sao logica principal do projeto).

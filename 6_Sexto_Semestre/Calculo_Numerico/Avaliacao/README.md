@@ -4,6 +4,6 @@ Total de arquivos de programacao neste ramo: 3
 
 ## O que cada codigo faz
 
-- MetodosDiretosEqLineares.m: Script MATLAB/Octave com funcao(oes) como eliminacao_gaussiana, fatoracao_lu, resolver_por_lu.
-- MetodosIterativosEqLineares.m: Script MATLAB/Octave com funcao(oes) como metodo_jacobi, metodo_gauss_seidel, eh_diagonal_dominante.
-- ZerosDeFuncao.m: Script MATLAB/Octave com funcao(oes) como metodo_bissecao, metodo_newton.
+- MetodosDiretosEqLineares.m: compara metodos diretos para Ax=b (Gauss simples, LU e Gauss com pivotamento), incluindo analise de residuo.
+- MetodosIterativosEqLineares.m: resolve Ax=b com Jacobi e Gauss-Seidel, com teste de dominancia diagonal e controle de convergencia.
+- ZerosDeFuncao.m: encontra raiz de x-cos(x) usando bissecao e Newton, reportando numero de iteracoes e valor final de f(x).
