@@ -1,17 +1,15 @@
 # Estruturas_de_dado
 
-Total de arquivos de programacao neste ramo: 25
+Esta pasta organiza o material por subpastas. Os detalhes de implementacao estao nos READMEs internos.
 
 ## Subpastas
+- `Arvore_B`
+- `Arvore_Binaria`
+- `Arvore_Rubro_Negra`
+- `Fila_Encadeada`
+- `Lista_DEncadeada`
+- `Lista_Encadeada`
+- `Pilha_Encadeada`
 
-- Arvore_B: 4 arquivo(s) de programacao
-- Arvore_Binaria: 5 arquivo(s) de programacao
-- Arvore_Rubro_Negra: 4 arquivo(s) de programacao
-- Fila_Encadeada: 3 arquivo(s) de programacao
-- Lista_DEncadeada: 3 arquivo(s) de programacao
-- Lista_Encadeada: 3 arquivo(s) de programacao
-- Pilha_Encadeada: 3 arquivo(s) de programacao
-
-## O que cada codigo faz
-
-- Esta pasta nao possui codigo diretamente; os codigos estao nas subpastas acima.
+## Como usar
+- Abra os arquivos da linguagem correspondente e execute/compile conforme a ferramenta da disciplina.

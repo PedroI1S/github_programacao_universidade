@@ -1,9 +1,11 @@
 # Ex_9
 
-Total de arquivos de programacao neste ramo: 3
+Resumo dos arquivos de codigo desta pasta e de suas funcoes no contexto da disciplina.
 
-## O que cada codigo faz
+## Arquivos de codigo
+- `EmailAPIPanel.java`: Codigo Java que define a classe EmailAPIPanel e sua logica associada.
+- `email.java`: Codigo Java que define a classe email e sua logica associada.
+- `usaEmail.java`: Codigo Java que define a classe usaEmail e sua logica associada.
 
-- email.java: Codigo Java que define classe(s) email, implementa metodo(s) como getRemetente, getDestinatario, toString.
-- EmailAPIPanel.java: Codigo Java que define classe(s) EmailAPIPanel, possui metodo main para execucao, implementa metodo(s) como actionPerformed, actionPerformed, actionPerformed.
-- usaEmail.java: Codigo Java que define classe(s) usaEmail, possui metodo main para execucao, implementa metodo(s) como main, escrever_email, listar_emails.
+## Como usar
+- Abra os arquivos da linguagem correspondente e execute/compile conforme a ferramenta da disciplina.

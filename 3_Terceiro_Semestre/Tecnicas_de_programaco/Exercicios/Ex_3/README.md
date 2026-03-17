@@ -1,8 +1,10 @@
 # Ex_3
 
-Total de arquivos de programacao neste ramo: 2
+Resumo dos arquivos de codigo desta pasta e de suas funcoes no contexto da disciplina.
 
-## O que cada codigo faz
+## Arquivos de codigo
+- `IntegerSet.java`: Codigo Java que define a classe IntegerSet e sua logica associada.
+- `IntegerSetDemo.java`: Codigo Java que define a classe IntegerSetDemo e sua logica associada.
 
-- IntegerSet.java: Codigo Java que define classe(s) IntegerSet, implementa metodo(s) como isEqualTo, insertElement, removeElement.
-- IntegerSetDemo.java: Codigo Java que define classe(s) IntegerSetDemo, possui metodo main para execucao, implementa metodo(s) como main.
+## Como usar
+- Abra os arquivos da linguagem correspondente e execute/compile conforme a ferramenta da disciplina.

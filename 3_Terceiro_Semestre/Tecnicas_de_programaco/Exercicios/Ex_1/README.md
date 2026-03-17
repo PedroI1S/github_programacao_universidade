@@ -1,8 +1,10 @@
 # Ex_1
 
-Total de arquivos de programacao neste ramo: 2
+Resumo dos arquivos de codigo desta pasta e de suas funcoes no contexto da disciplina.
 
-## O que cada codigo faz
+## Arquivos de codigo
+- `Die.java`: Codigo Java que define a classe Die e sua logica associada.
+- `DieDemo.java`: Codigo Java que define a classe DieDemo e sua logica associada.
 
-- Die.java: Codigo Java que define classe(s) Die, implementa metodo(s) como roll, GetSideUp.
-- DieDemo.java: Codigo Java que define classe(s) DieDemo, possui metodo main para execucao, implementa metodo(s) como main.
+## Como usar
+- Abra os arquivos da linguagem correspondente e execute/compile conforme a ferramenta da disciplina.

@@ -1,14 +1,12 @@
 # Agoritimos_e_Estrutura_de_Dados_2
 
-Total de arquivos de programacao neste ramo: 34
+Esta pasta organiza o material por subpastas. Os detalhes de implementacao estao nos READMEs internos.
 
 ## Subpastas
+- `Estruturas_de_dado`
+- `Hashing`
+- `Paradigmas`
+- `Trabalho_Final`
 
-- Estruturas_de_dado: 25 arquivo(s) de programacao
-- Hashing: 1 arquivo(s) de programacao
-- Paradigmas: 4 arquivo(s) de programacao
-- Trabalho_Final: 4 arquivo(s) de programacao
-
-## O que cada codigo faz
-
-- Esta pasta nao possui codigo diretamente; os codigos estao nas subpastas acima.
+## Como usar
+- Abra os arquivos da linguagem correspondente e execute/compile conforme a ferramenta da disciplina.

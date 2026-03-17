@@ -1,19 +1,17 @@
 # Exercicios
 
-Total de arquivos de programacao neste ramo: 21
+Esta pasta organiza o material por subpastas. Os detalhes de implementacao estao nos READMEs internos.
 
 ## Subpastas
+- `Ex_1`
+- `Ex_2`
+- `Ex_3`
+- `Ex_4`
+- `Ex_5`
+- `Ex_6`
+- `Ex_7`
+- `Ex_8`
+- `Ex_9`
 
-- Ex_1: 2 arquivo(s) de programacao
-- Ex_2: 3 arquivo(s) de programacao
-- Ex_3: 2 arquivo(s) de programacao
-- Ex_4: 3 arquivo(s) de programacao
-- Ex_5: 2 arquivo(s) de programacao
-- Ex_6: 2 arquivo(s) de programacao
-- Ex_7: 2 arquivo(s) de programacao
-- Ex_8: 2 arquivo(s) de programacao
-- Ex_9: 3 arquivo(s) de programacao
-
-## O que cada codigo faz
-
-- Esta pasta nao possui codigo diretamente; os codigos estao nas subpastas acima.
+## Como usar
+- Abra os arquivos da linguagem correspondente e execute/compile conforme a ferramenta da disciplina.

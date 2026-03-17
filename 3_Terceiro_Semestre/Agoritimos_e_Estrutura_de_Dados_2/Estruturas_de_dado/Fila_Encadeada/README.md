@@ -1,9 +1,11 @@
 # Fila_Encadeada
 
-Total de arquivos de programacao neste ramo: 3
+Resumo dos arquivos de codigo desta pasta e de suas funcoes no contexto da disciplina.
 
-## O que cada codigo faz
+## Arquivos de codigo
+- `Concatenacao.c`: Codigo-fonte em C com a implementacao principal do exercicio desta pasta.
+- `fila.c`: Implementacao em C das operacoes de fila (insercao, remocao e consulta).
+- `fila.h`: Cabecalho com tipos, prototipos e constantes utilizados pelos fontes C/C++ desta pasta.
 
-- Concatenacao.c: Codigo em C/C++ que possui ponto de entrada principal, define estruturas de dados com struct, usa alocacao dinamica de memoria.
-- fila.c: Codigo em C/C++ que possui ponto de entrada principal.
-- fila.h: Codigo em C/C++ com implementacao de exercicio/pratica da disciplina.
+## Como usar
+- Abra os arquivos da linguagem correspondente e execute/compile conforme a ferramenta da disciplina.

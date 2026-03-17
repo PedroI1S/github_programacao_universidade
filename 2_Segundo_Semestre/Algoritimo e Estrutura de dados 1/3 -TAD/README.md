@@ -1,10 +1,12 @@
 # 3 -TAD
 
-Total de arquivos de programacao neste ramo: 4
+Resumo dos arquivos de codigo desta pasta e de suas funcoes no contexto da disciplina.
 
-## O que cada codigo faz
+## Arquivos de codigo
+- `Aula 1.c`: Codigo-fonte em C com a implementacao principal do exercicio desta pasta.
+- `Ex2.c`: Programa em C com funcao principal e uso de estruturas de dados.
+- `ExN.c`: Programa em C com funcao principal e uso de estruturas de dados.
+- `Tad.c`: Codigo-fonte em C com a implementacao principal do exercicio desta pasta.
 
-- Aula 1.c: Codigo em C/C++ que possui ponto de entrada principal, define estruturas de dados com struct, usa alocacao dinamica de memoria.
-- Ex2.c: Codigo em C/C++ que possui ponto de entrada principal, define estruturas de dados com struct, usa alocacao dinamica de memoria.
-- ExN.c: Codigo em C/C++ que possui ponto de entrada principal, define estruturas de dados com struct, usa alocacao dinamica de memoria.
-- Tad.c: Codigo em C/C++ que possui ponto de entrada principal, define estruturas de dados com struct, usa alocacao dinamica de memoria.
+## Como usar
+- Abra os arquivos da linguagem correspondente e execute/compile conforme a ferramenta da disciplina.

@@ -1,12 +1,10 @@
 # Programaçao
 
-Total de arquivos de programacao neste ramo: 73
+Esta pasta organiza o material por subpastas. Os detalhes de implementacao estao nos READMEs internos.
 
 ## Subpastas
+- `1°Avaliação`
+- `Trabalhos 1° Semestre`
 
-- 1°Avaliação: 3 arquivo(s) de programacao
-- Trabalhos 1° Semestre: 70 arquivo(s) de programacao
-
-## O que cada codigo faz
-
-- Esta pasta nao possui codigo diretamente; os codigos estao nas subpastas acima.
+## Como usar
+- Abra os arquivos da linguagem correspondente e execute/compile conforme a ferramenta da disciplina.

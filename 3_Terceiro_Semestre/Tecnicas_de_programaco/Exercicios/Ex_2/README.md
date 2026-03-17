@@ -1,9 +1,11 @@
 # Ex_2
 
-Total de arquivos de programacao neste ramo: 3
+Resumo dos arquivos de codigo desta pasta e de suas funcoes no contexto da disciplina.
 
-## O que cada codigo faz
+## Arquivos de codigo
+- `NumeroComplexo.java`: Codigo Java que define a classe NumeroComplexo e sua logica associada.
+- `NumeroComplexoDemo.java`: Codigo Java que define a classe NumeroComplexoDemo e sua logica associada.
+- `texte.java`: Codigo Java que define a classe texte e sua logica associada.
 
-- NumeroComplexo.java: Codigo Java que define classe(s) NumeroComplexo, implementa metodo(s) como InicializaNumero, ImprimeNumero, eIgual.
-- NumeroComplexoDemo.java: Codigo Java que define classe(s) NumeroComplexoDemo, possui metodo main para execucao, implementa metodo(s) como main.
-- texte.java: Codigo Java que define classe(s) texte, possui metodo main para execucao, implementa metodo(s) como main.
+## Como usar
+- Abra os arquivos da linguagem correspondente e execute/compile conforme a ferramenta da disciplina.

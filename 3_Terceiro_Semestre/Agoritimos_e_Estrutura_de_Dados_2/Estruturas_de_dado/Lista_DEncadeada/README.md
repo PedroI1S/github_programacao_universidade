@@ -1,9 +1,11 @@
 # Lista_DEncadeada
 
-Total de arquivos de programacao neste ramo: 3
+Resumo dos arquivos de codigo desta pasta e de suas funcoes no contexto da disciplina.
 
-## O que cada codigo faz
+## Arquivos de codigo
+- `ListaDE.c`: Implementacao em C de lista com rotinas de insercao, remocao e percorrimento.
+- `ListaDE.h`: Cabecalho com tipos, prototipos e constantes utilizados pelos fontes C/C++ desta pasta.
+- `ListaDE_RemocaoRepeticao.c`: Implementacao em C de lista com rotinas de insercao, remocao e percorrimento.
 
-- ListaDE.c: Codigo em C/C++ que define estruturas de dados com struct, usa alocacao dinamica de memoria.
-- ListaDE.h: Codigo em C/C++ que define estruturas de dados com struct.
-- ListaDE_RemocaoRepeticao.c: Codigo em C/C++ que possui ponto de entrada principal, define estruturas de dados com struct, usa alocacao dinamica de memoria.
+## Como usar
+- Abra os arquivos da linguagem correspondente e execute/compile conforme a ferramenta da disciplina.

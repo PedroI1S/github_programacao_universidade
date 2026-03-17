@@ -1,9 +1,11 @@
 # Ex_4
 
-Total de arquivos de programacao neste ramo: 3
+Resumo dos arquivos de codigo desta pasta e de suas funcoes no contexto da disciplina.
 
-## O que cada codigo faz
+## Arquivos de codigo
+- `Rational.java`: Codigo Java que define a classe Rational e sua logica associada.
+- `RationalDemo.java`: Codigo Java que define a classe RationalDemo e sua logica associada.
+- `teste.java`: Codigo Java que define a classe teste e sua logica associada.
 
-- Rational.java: Codigo Java que define classe(s) Rational, implementa metodo(s) como Reduzir, Sum, Sub.
-- RationalDemo.java: Codigo Java que define classe(s) RationalDemo, possui metodo main para execucao, implementa metodo(s) como main.
-- teste.java: Codigo Java que define classe(s) teste, possui metodo main para execucao, implementa metodo(s) como main.
+## Como usar
+- Abra os arquivos da linguagem correspondente e execute/compile conforme a ferramenta da disciplina.

@@ -1,7 +1,9 @@
 # Hashing
 
-Total de arquivos de programacao neste ramo: 1
+Resumo dos arquivos de codigo desta pasta e de suas funcoes no contexto da disciplina.
 
-## O que cada codigo faz
+## Arquivos de codigo
+- `Tebela_RBtree.c`: Implementacao em C de estrutura de arvore com rotinas de manipulacao e busca.
 
-- Tebela_RBtree.c: Codigo em C/C++ que possui ponto de entrada principal, define estruturas de dados com struct, usa alocacao dinamica de memoria.
+## Como usar
+- Abra os arquivos da linguagem correspondente e execute/compile conforme a ferramenta da disciplina.

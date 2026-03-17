@@ -1,15 +1,13 @@
 # Tecnicas_de_programaco
 
-Total de arquivos de programacao neste ramo: 43
+Esta pasta organiza o material por subpastas. Os detalhes de implementacao estao nos READMEs internos.
 
 ## Subpastas
+- `Aula_1`
+- `Aula_2`
+- `Aula_4`
+- `Aula_6`
+- `Exercicios`
 
-- Aula_1: 5 arquivo(s) de programacao
-- Aula_2: 9 arquivo(s) de programacao
-- Aula_4: 5 arquivo(s) de programacao
-- Aula_6: 3 arquivo(s) de programacao
-- Exercicios: 21 arquivo(s) de programacao
-
-## O que cada codigo faz
-
-- Esta pasta nao possui codigo diretamente; os codigos estao nas subpastas acima.
+## Como usar
+- Abra os arquivos da linguagem correspondente e execute/compile conforme a ferramenta da disciplina.

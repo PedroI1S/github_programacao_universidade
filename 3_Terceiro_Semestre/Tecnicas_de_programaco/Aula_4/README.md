@@ -1,11 +1,13 @@
 # Aula_4
 
-Total de arquivos de programacao neste ramo: 5
+Resumo dos arquivos de codigo desta pasta e de suas funcoes no contexto da disciplina.
 
-## O que cada codigo faz
+## Arquivos de codigo
+- `CarroIdeal.java`: Codigo Java que define a classe CarroIdeal e sua logica associada.
+- `CarroNaoIdeal.java`: Codigo Java que define a classe CarroNaoIdeal e sua logica associada.
+- `Pessoa.java`: Codigo Java que define a classe Pessoa e sua logica associada.
+- `UsaCarro.java`: Codigo Java que define a classe UsaCarro e sua logica associada.
+- `UsaPessoa.java`: Codigo Java que define a classe UsaPessoa e sua logica associada.
 
-- CarroIdeal.java: Codigo Java que define classe(s) CarroIdeal, implementa metodo(s) como definirVelocidade, acelerar.
-- CarroNaoIdeal.java: Codigo Java que define classe(s) CarroNaoIdeal, implementa metodo(s) como definirVelocidade, acelerar.
-- Pessoa.java: Codigo Java que define classe(s) Pessoa, implementa metodo(s) como imprimirDados.
-- UsaCarro.java: Codigo Java que define classe(s) UsaCarro, possui metodo main para execucao, implementa metodo(s) como main.
-- UsaPessoa.java: Codigo Java que define classe(s) UsaPessoa, possui metodo main para execucao, implementa metodo(s) como main.
+## Como usar
+- Abra os arquivos da linguagem correspondente e execute/compile conforme a ferramenta da disciplina.

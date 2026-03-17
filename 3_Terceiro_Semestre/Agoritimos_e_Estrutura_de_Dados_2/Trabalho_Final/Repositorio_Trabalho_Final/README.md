@@ -1,8 +1,10 @@
 # Repositorio_Trabalho_Final
 
-Total de arquivos de programacao neste ramo: 2
+Resumo dos arquivos de codigo desta pasta e de suas funcoes no contexto da disciplina.
 
-## O que cada codigo faz
+## Arquivos de codigo
+- `Contador_palindromos_1.3.c`: Codigo-fonte em C com a implementacao principal do exercicio desta pasta.
+- `Contador_palindromos_1.8.c`: Codigo-fonte em C com a implementacao principal do exercicio desta pasta.
 
-- Contador_palindromos_1.3.c: Codigo em C/C++ que possui ponto de entrada principal, usa alocacao dinamica de memoria.
-- Contador_palindromos_1.8.c: Codigo em C/C++ que possui ponto de entrada principal, usa alocacao dinamica de memoria.
+## Como usar
+- Abra os arquivos da linguagem correspondente e execute/compile conforme a ferramenta da disciplina.

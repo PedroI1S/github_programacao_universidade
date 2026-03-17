@@ -1,9 +1,11 @@
 # 1°Avaliação
 
-Total de arquivos de programacao neste ramo: 3
+Resumo dos arquivos de codigo desta pasta e de suas funcoes no contexto da disciplina.
 
-## O que cada codigo faz
+## Arquivos de codigo
+- `Pedro_Mariano_Questao1.c`: Codigo-fonte em C com a implementacao principal do exercicio desta pasta.
+- `Pedro_Mariano_Questao2.c`: Codigo-fonte em C com a implementacao principal do exercicio desta pasta.
+- `Pedro_Mariano_Questao3.c`: Codigo-fonte em C com a implementacao principal do exercicio desta pasta.
 
-- Pedro_Mariano_Questao1.c: Codigo em C/C++ que possui ponto de entrada principal.
-- Pedro_Mariano_Questao2.c: Codigo em C/C++ que possui ponto de entrada principal, trabalha com processos do sistema operacional.
-- Pedro_Mariano_Questao3.c: Codigo em C/C++ que possui ponto de entrada principal.
+## Como usar
+- Abra os arquivos da linguagem correspondente e execute/compile conforme a ferramenta da disciplina.

@@ -1,11 +1,13 @@
 # 5 - Pilhas
 
-Total de arquivos de programacao neste ramo: 5
+Resumo dos arquivos de codigo desta pasta e de suas funcoes no contexto da disciplina.
 
-## O que cada codigo faz
+## Arquivos de codigo
+- `Ex1.c`: Codigo-fonte em C com a implementacao principal do exercicio desta pasta.
+- `Ex2.c`: Programa em C com funcao principal e uso de estruturas de dados.
+- `Ex3.c`: Codigo-fonte em C com a implementacao principal do exercicio desta pasta.
+- `Ex_nota.c`: Programa em C com funcao principal e uso de estruturas de dados.
+- `teste.c`: Programa em C com funcao principal e uso de estruturas de dados.
 
-- Ex1.c: Codigo em C/C++ que possui ponto de entrada principal, define estruturas de dados com struct, usa alocacao dinamica de memoria.
-- Ex2.c: Codigo em C/C++ que possui ponto de entrada principal, define estruturas de dados com struct, usa alocacao dinamica de memoria.
-- Ex3.c: Codigo em C/C++ que possui ponto de entrada principal, define estruturas de dados com struct, usa alocacao dinamica de memoria.
-- Ex_nota.c: Codigo em C/C++ que possui ponto de entrada principal, define estruturas de dados com struct, usa alocacao dinamica de memoria.
-- teste.c: Codigo em C/C++ que possui ponto de entrada principal, define estruturas de dados com struct, usa alocacao dinamica de memoria.
+## Como usar
+- Abra os arquivos da linguagem correspondente e execute/compile conforme a ferramenta da disciplina.

@@ -1,11 +1,13 @@
 # 4 - Listas estaticas
 
-Total de arquivos de programacao neste ramo: 5
+Resumo dos arquivos de codigo desta pasta e de suas funcoes no contexto da disciplina.
 
-## O que cada codigo faz
+## Arquivos de codigo
+- `Ex1.c`: Programa em C com funcao principal para executar e testar a logica do exercicio.
+- `Ex2.c`: Codigo-fonte em C com a implementacao principal do exercicio desta pasta.
+- `Ex3.c`: Codigo-fonte em C com a implementacao principal do exercicio desta pasta.
+- `List.h`: Cabecalho com tipos, prototipos e constantes utilizados pelos fontes C/C++ desta pasta.
+- `list.c`: Implementacao em C de lista com rotinas de insercao, remocao e percorrimento.
 
-- Ex1.c: Codigo em C/C++ que possui ponto de entrada principal.
-- Ex2.c: Codigo em C/C++ que possui ponto de entrada principal, define estruturas de dados com struct, usa alocacao dinamica de memoria.
-- Ex3.c: Codigo em C/C++ que possui ponto de entrada principal, define estruturas de dados com struct, usa alocacao dinamica de memoria.
-- list.c: Codigo em C/C++ que usa alocacao dinamica de memoria.
-- List.h: Codigo em C/C++ que define estruturas de dados com struct.
+## Como usar
+- Abra os arquivos da linguagem correspondente e execute/compile conforme a ferramenta da disciplina.

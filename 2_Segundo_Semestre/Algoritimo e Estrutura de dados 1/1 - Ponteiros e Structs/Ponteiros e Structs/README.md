@@ -1,7 +1,9 @@
 # Ponteiros e Structs
 
-Total de arquivos de programacao neste ramo: 1
+Resumo dos arquivos de codigo desta pasta e de suas funcoes no contexto da disciplina.
 
-## O que cada codigo faz
+## Arquivos de codigo
+- `Ponteiros em structs.c`: Codigo-fonte em C com a implementacao principal do exercicio desta pasta.
 
-- Ponteiros em structs.c: Codigo em C/C++ que possui ponto de entrada principal, define estruturas de dados com struct.
+## Como usar
+- Abra os arquivos da linguagem correspondente e execute/compile conforme a ferramenta da disciplina.

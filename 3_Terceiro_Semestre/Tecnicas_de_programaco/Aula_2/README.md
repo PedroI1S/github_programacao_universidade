@@ -1,13 +1,14 @@
 # Aula_2
 
-Total de arquivos de programacao neste ramo: 9
+Resumo dos arquivos de codigo desta pasta e de suas funcoes no contexto da disciplina.
+
+## Arquivos de codigo
+- `OlaMundo.java`: Codigo Java que define a classe OlaMundo e sua logica associada.
+- `Segundo.java`: Codigo Java que define a classe Segundo e sua logica associada.
+- `Terceiro.java`: Codigo Java que define a classe Terceiro e sua logica associada.
 
 ## Subpastas
+- `Exs`
 
-- Exs: 6 arquivo(s) de programacao
-
-## O que cada codigo faz
-
-- OlaMundo.java: Codigo Java que define classe(s) OlaMundo, possui metodo main para execucao, implementa metodo(s) como main.
-- Segundo.java: Codigo Java que define classe(s) Segundo, possui metodo main para execucao, implementa metodo(s) como main.
-- Terceiro.java: Codigo Java que define classe(s) Terceiro, possui metodo main para execucao, implementa metodo(s) como main.
+## Como usar
+- Abra os arquivos da linguagem correspondente e execute/compile conforme a ferramenta da disciplina.

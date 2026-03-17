@@ -1,9 +1,11 @@
 # 2 - Alocacao dinamica
 
-Total de arquivos de programacao neste ramo: 3
+Resumo dos arquivos de codigo desta pasta e de suas funcoes no contexto da disciplina.
 
-## O que cada codigo faz
+## Arquivos de codigo
+- `Ex 1.c`: Programa em C com funcao principal para executar e testar a logica do exercicio.
+- `Ex para nota.c`: Codigo-fonte em C com a implementacao principal do exercicio desta pasta.
+- `tempCodeRunnerFile.c`: Codigo-fonte em C com a implementacao principal do exercicio desta pasta.
 
-- Ex 1.c: Codigo em C/C++ que possui ponto de entrada principal, usa alocacao dinamica de memoria.
-- Ex para nota.c: Codigo em C/C++ que possui ponto de entrada principal, usa alocacao dinamica de memoria.
-- tempCodeRunnerFile.c: Codigo em C/C++ com implementacao de exercicio/pratica da disciplina.
+## Como usar
+- Abra os arquivos da linguagem correspondente e execute/compile conforme a ferramenta da disciplina.

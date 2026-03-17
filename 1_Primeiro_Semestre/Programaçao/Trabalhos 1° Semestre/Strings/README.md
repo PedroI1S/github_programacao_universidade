@@ -1,9 +1,11 @@
 # Strings
 
-Total de arquivos de programacao neste ramo: 3
+Resumo dos arquivos de codigo desta pasta e de suas funcoes no contexto da disciplina.
 
-## O que cada codigo faz
+## Arquivos de codigo
+- `Strings.c`: Codigo-fonte em C com a implementacao principal do exercicio desta pasta.
+- `Strings2.c`: Codigo-fonte em C com a implementacao principal do exercicio desta pasta.
+- `Strings3.c`: Codigo-fonte em C com a implementacao principal do exercicio desta pasta.
 
-- Strings.c: Codigo em C/C++ que possui ponto de entrada principal.
-- Strings2.c: Codigo em C/C++ que possui ponto de entrada principal.
-- Strings3.c: Codigo em C/C++ que possui ponto de entrada principal.
+## Como usar
+- Abra os arquivos da linguagem correspondente e execute/compile conforme a ferramenta da disciplina.

@@ -1,8 +1,10 @@
 # Ex_5
 
-Total de arquivos de programacao neste ramo: 2
+Resumo dos arquivos de codigo desta pasta e de suas funcoes no contexto da disciplina.
 
-## O que cada codigo faz
+## Arquivos de codigo
+- `AplicativoFatura.java`: Codigo Java que define a classe AplicativoFatura e sua logica associada.
+- `Fatura.java`: Codigo Java que define a classe Fatura e sua logica associada.
 
-- AplicativoFatura.java: Codigo Java que define classe(s) AplicativoFatura, possui metodo main para execucao, implementa metodo(s) como main.
-- Fatura.java: Codigo Java que define classe(s) Fatura, implementa metodo(s) como getNumeroDePeca, setNumeroDePeca, getDescricaoDaPeca.
+## Como usar
+- Abra os arquivos da linguagem correspondente e execute/compile conforme a ferramenta da disciplina.

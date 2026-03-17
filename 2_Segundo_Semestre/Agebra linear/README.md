@@ -1,9 +1,11 @@
 # Agebra linear
 
-Total de arquivos de programacao neste ramo: 3
+Resumo dos arquivos de codigo desta pasta e de suas funcoes no contexto da disciplina.
 
-## O que cada codigo faz
+## Arquivos de codigo
+- `Matrizes 1.mlx`: Live Script do MATLAB com resolucao passo a passo e resultados da atividade.
+- `Matrizes 2.mlx`: Live Script do MATLAB com resolucao passo a passo e resultados da atividade.
+- `Matrizes 3.mlx`: Live Script do MATLAB com resolucao passo a passo e resultados da atividade.
 
-- Matrizes 1.mlx: Script MATLAB/Octave para exercicio de modelagem/calculo numerico.
-- Matrizes 2.mlx: Script MATLAB/Octave para exercicio de modelagem/calculo numerico.
-- Matrizes 3.mlx: Script MATLAB/Octave para exercicio de modelagem/calculo numerico.
+## Como usar
+- Abra os arquivos da linguagem correspondente e execute/compile conforme a ferramenta da disciplina.

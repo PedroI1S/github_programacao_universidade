@@ -1,8 +1,10 @@
 # Ex_6
 
-Total de arquivos de programacao neste ramo: 2
+Resumo dos arquivos de codigo desta pasta e de suas funcoes no contexto da disciplina.
 
-## O que cada codigo faz
+## Arquivos de codigo
+- `Empregado.java`: Codigo Java que define a classe Empregado e sua logica associada.
+- `TesteEmpregado.java`: Codigo Java que define a classe TesteEmpregado e sua logica associada.
 
-- Empregado.java: Codigo Java que define classe(s) Empregado, implementa metodo(s) como getPrimeiroNome, setPrimeiroNome, getSobrenome.
-- TesteEmpregado.java: Codigo Java que define classe(s) TesteEmpregado, possui metodo main para execucao, implementa metodo(s) como main.
+## Como usar
+- Abra os arquivos da linguagem correspondente e execute/compile conforme a ferramenta da disciplina.

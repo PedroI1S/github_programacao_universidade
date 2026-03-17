@@ -1,10 +1,12 @@
 # Arvore_B
 
-Total de arquivos de programacao neste ramo: 4
+Resumo dos arquivos de codigo desta pasta e de suas funcoes no contexto da disciplina.
 
-## O que cada codigo faz
+## Arquivos de codigo
+- `Altuara.c`: Codigo-fonte em C com a implementacao principal do exercicio desta pasta.
+- `ContarPag.c`: Codigo-fonte em C com a implementacao principal do exercicio desta pasta.
+- `ContarPaginasCheias.c`: Codigo-fonte em C com a implementacao principal do exercicio desta pasta.
+- `TAD_ArvoreB.c`: Implementacao em C de estrutura de arvore com rotinas de manipulacao e busca.
 
-- Altuara.c: Codigo em C/C++ que possui ponto de entrada principal, define estruturas de dados com struct, usa alocacao dinamica de memoria.
-- ContarPag.c: Codigo em C/C++ que possui ponto de entrada principal, define estruturas de dados com struct, usa alocacao dinamica de memoria.
-- ContarPaginasCheias.c: Codigo em C/C++ que possui ponto de entrada principal, define estruturas de dados com struct, usa alocacao dinamica de memoria.
-- TAD_ArvoreB.c: Codigo em C/C++ que define estruturas de dados com struct, usa alocacao dinamica de memoria.
+## Como usar
+- Abra os arquivos da linguagem correspondente e execute/compile conforme a ferramenta da disciplina.

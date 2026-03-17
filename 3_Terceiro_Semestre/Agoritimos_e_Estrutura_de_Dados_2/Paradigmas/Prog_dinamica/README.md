@@ -1,7 +1,9 @@
 # Prog_dinamica
 
-Total de arquivos de programacao neste ramo: 1
+Resumo dos arquivos de codigo desta pasta e de suas funcoes no contexto da disciplina.
 
-## O que cada codigo faz
+## Arquivos de codigo
+- `Sub_max.c`: Programa em C com funcao principal para executar e testar a logica do exercicio.
 
-- Sub_max.c: Codigo em C/C++ que possui ponto de entrada principal.
+## Como usar
+- Abra os arquivos da linguagem correspondente e execute/compile conforme a ferramenta da disciplina.

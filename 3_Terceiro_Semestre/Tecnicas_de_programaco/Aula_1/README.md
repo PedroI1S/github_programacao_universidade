@@ -1,11 +1,13 @@
 # Aula_1
 
-Total de arquivos de programacao neste ramo: 5
+Resumo dos arquivos de codigo desta pasta e de suas funcoes no contexto da disciplina.
 
-## O que cada codigo faz
+## Arquivos de codigo
+- `Ex_1.c`: Programa em C com funcao principal para executar e testar a logica do exercicio.
+- `Ex_2.c`: Programa em C com funcao principal para executar e testar a logica do exercicio.
+- `Ex_3.c`: Programa em C com funcao principal para executar e testar a logica do exercicio.
+- `Ex_4.c`: Codigo-fonte em C com a implementacao principal do exercicio desta pasta.
+- `Ex_5.c`: Codigo-fonte em C com a implementacao principal do exercicio desta pasta.
 
-- Ex_1.c: Codigo em C/C++ que possui ponto de entrada principal.
-- Ex_2.c: Codigo em C/C++ que possui ponto de entrada principal.
-- Ex_3.c: Codigo em C/C++ que possui ponto de entrada principal.
-- Ex_4.c: Codigo em C/C++ que possui ponto de entrada principal.
-- Ex_5.c: Codigo em C/C++ com implementacao de exercicio/pratica da disciplina.
+## Como usar
+- Abra os arquivos da linguagem correspondente e execute/compile conforme a ferramenta da disciplina.

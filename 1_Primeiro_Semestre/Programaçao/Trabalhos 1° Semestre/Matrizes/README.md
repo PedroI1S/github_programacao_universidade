@@ -1,10 +1,12 @@
 # Matrizes
 
-Total de arquivos de programacao neste ramo: 4
+Resumo dos arquivos de codigo desta pasta e de suas funcoes no contexto da disciplina.
 
-## O que cada codigo faz
+## Arquivos de codigo
+- `12.06_Ex3.c`: Codigo-fonte em C com a implementacao principal do exercicio desta pasta.
+- `12.06_ex2.c`: Codigo-fonte em C com a implementacao principal do exercicio desta pasta.
+- `16.06_Ex4.c`: Codigo-fonte em C com a implementacao principal do exercicio desta pasta.
+- `Matrizes.h`: Cabecalho com tipos, prototipos e constantes utilizados pelos fontes C/C++ desta pasta.
 
-- 12.06_ex2.c: Codigo em C/C++ que possui ponto de entrada principal.
-- 12.06_Ex3.c: Codigo em C/C++ que possui ponto de entrada principal.
-- 16.06_Ex4.c: Codigo em C/C++ que possui ponto de entrada principal.
-- Matrizes.h: Codigo em C/C++ com implementacao de exercicio/pratica da disciplina.
+## Como usar
+- Abra os arquivos da linguagem correspondente e execute/compile conforme a ferramenta da disciplina.

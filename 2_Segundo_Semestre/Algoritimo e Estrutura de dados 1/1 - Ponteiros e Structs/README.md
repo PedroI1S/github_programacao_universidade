@@ -1,14 +1,15 @@
 # 1 - Ponteiros e Structs
 
-Total de arquivos de programacao neste ramo: 5
+Resumo dos arquivos de codigo desta pasta e de suas funcoes no contexto da disciplina.
+
+## Arquivos de codigo
+- `Aula 1.c`: Programa em C com funcao principal e uso de estruturas de dados.
+- `Aula_2.c`: Codigo-fonte em C com a implementacao principal do exercicio desta pasta.
+- `Aula_3.c`: Codigo-fonte em C com a implementacao principal do exercicio desta pasta.
+- `Ex notas.c`: Codigo-fonte em C com a implementacao principal do exercicio desta pasta.
 
 ## Subpastas
+- `Ponteiros e Structs`
 
-- Ponteiros e Structs: 1 arquivo(s) de programacao
-
-## O que cada codigo faz
-
-- Aula 1.c: Codigo em C/C++ que possui ponto de entrada principal, define estruturas de dados com struct.
-- Aula_2.c: Codigo em C/C++ com implementacao de exercicio/pratica da disciplina.
-- Aula_3.c: Codigo em C/C++ que possui ponto de entrada principal.
-- Ex notas.c: Codigo em C/C++ que possui ponto de entrada principal, define estruturas de dados com struct.
+## Como usar
+- Abra os arquivos da linguagem correspondente e execute/compile conforme a ferramenta da disciplina.

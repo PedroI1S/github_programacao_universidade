@@ -1,12 +1,14 @@
 # Exs
 
-Total de arquivos de programacao neste ramo: 6
+Resumo dos arquivos de codigo desta pasta e de suas funcoes no contexto da disciplina.
 
-## O que cada codigo faz
+## Arquivos de codigo
+- `Ex_1.java`: Codigo Java que define a classe Ex_1 e sua logica associada.
+- `Ex_2.java`: Codigo Java que define a classe Ex_2 e sua logica associada.
+- `Ex_3.java`: Codigo Java que define a classe Ex_3 e sua logica associada.
+- `Ex_4.java`: Codigo Java que define a classe Ex_4 e sua logica associada.
+- `Ex_5.java`: Codigo Java que define a classe Ex_5 e sua logica associada.
+- `Ex_6.java`: Codigo Java que define a classe Ex_6 e sua logica associada.
 
-- Ex_1.java: Codigo Java que define classe(s) Ex_1, implementa metodo(s) como main.
-- Ex_2.java: Codigo Java que define classe(s) Ex_2, implementa metodo(s) como main.
-- Ex_3.java: Codigo Java que define classe(s) Ex_3, implementa metodo(s) como main.
-- Ex_4.java: Codigo Java que define classe(s) Ex_4, implementa metodo(s) como main.
-- Ex_5.java: Codigo Java que define classe(s) Ex_5, possui metodo main para execucao, implementa metodo(s) como main.
-- Ex_6.java: Codigo Java que define classe(s) Ex_6, possui metodo main para execucao, implementa metodo(s) como main.
+## Como usar
+- Abra os arquivos da linguagem correspondente e execute/compile conforme a ferramenta da disciplina.

@@ -1,9 +1,11 @@
 # Pilha_Encadeada
 
-Total de arquivos de programacao neste ramo: 3
+Resumo dos arquivos de codigo desta pasta e de suas funcoes no contexto da disciplina.
 
-## O que cada codigo faz
+## Arquivos de codigo
+- `Balanco_parentese.c`: Programa em C com funcao principal e uso de estruturas de dados.
+- `pilha.c`: Implementacao em C das operacoes de pilha (empilhar, desempilhar e topo).
+- `pilha.h`: Cabecalho com tipos, prototipos e constantes utilizados pelos fontes C/C++ desta pasta.
 
-- Balanco_parentese.c: Codigo em C/C++ que possui ponto de entrada principal, define estruturas de dados com struct, usa alocacao dinamica de memoria.
-- pilha.c: Codigo em C/C++ que define estruturas de dados com struct, usa alocacao dinamica de memoria.
-- pilha.h: Codigo em C/C++ que define estruturas de dados com struct.
+## Como usar
+- Abra os arquivos da linguagem correspondente e execute/compile conforme a ferramenta da disciplina.

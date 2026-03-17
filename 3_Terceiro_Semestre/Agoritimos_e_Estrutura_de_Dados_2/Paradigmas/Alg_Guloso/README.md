@@ -1,8 +1,10 @@
 # Alg_Guloso
 
-Total de arquivos de programacao neste ramo: 2
+Resumo dos arquivos de codigo desta pasta e de suas funcoes no contexto da disciplina.
 
-## O que cada codigo faz
+## Arquivos de codigo
+- `Fracao_egipcia.c`: Programa em C com funcao principal para executar e testar a logica do exercicio.
+- `Sequenciamento_Tarefas_Maquina.c`: Programa em C com funcao principal e uso de estruturas de dados.
 
-- Fracao_egipcia.c: Codigo em C/C++ que possui ponto de entrada principal, usa alocacao dinamica de memoria.
-- Sequenciamento_Tarefas_Maquina.c: Codigo em C/C++ que possui ponto de entrada principal, trabalha com processos do sistema operacional, define estruturas de dados com struct, usa alocacao dinamica de memoria.
+## Como usar
+- Abra os arquivos da linguagem correspondente e execute/compile conforme a ferramenta da disciplina.

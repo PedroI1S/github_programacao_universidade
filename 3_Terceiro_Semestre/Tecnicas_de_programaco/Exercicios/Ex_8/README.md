@@ -1,8 +1,10 @@
 # Ex_8
 
-Total de arquivos de programacao neste ramo: 2
+Resumo dos arquivos de codigo desta pasta e de suas funcoes no contexto da disciplina.
 
-## O que cada codigo faz
+## Arquivos de codigo
+- `AplicacaoFrequenciaCardiaca.java`: Codigo Java que define a classe AplicacaoFrequenciaCardiaca e sua logica associada.
+- `FrequenciaCardiaca.java`: Codigo Java que define a classe FrequenciaCardiaca e sua logica associada.
 
-- AplicacaoFrequenciaCardiaca.java: Codigo Java que define classe(s) AplicacaoFrequenciaCardiaca, possui metodo main para execucao, implementa metodo(s) como main.
-- FrequenciaCardiaca.java: Codigo Java que define classe(s) FrequenciaCardiaca, implementa metodo(s) como getPrimeiroNome, setPrimeiroNome, getSobrenome.
+## Como usar
+- Abra os arquivos da linguagem correspondente e execute/compile conforme a ferramenta da disciplina.

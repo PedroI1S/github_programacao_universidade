@@ -1,10 +1,12 @@
 # Arvore_Rubro_Negra
 
-Total de arquivos de programacao neste ramo: 4
+Resumo dos arquivos de codigo desta pasta e de suas funcoes no contexto da disciplina.
 
-## O que cada codigo faz
+## Arquivos de codigo
+- `QuantidadePI.c`: Codigo-fonte em C com a implementacao principal do exercicio desta pasta.
+- `QuantidadeV.c`: Codigo-fonte em C com a implementacao principal do exercicio desta pasta.
+- `Remocao.c`: Codigo-fonte em C com a implementacao principal do exercicio desta pasta.
+- `TAD_RNtree.c`: Implementacao em C de estrutura de arvore com rotinas de manipulacao e busca.
 
-- QuantidadePI.c: Codigo em C/C++ que possui ponto de entrada principal, define estruturas de dados com struct, usa alocacao dinamica de memoria.
-- QuantidadeV.c: Codigo em C/C++ que possui ponto de entrada principal, define estruturas de dados com struct, usa alocacao dinamica de memoria.
-- Remocao.c: Codigo em C/C++ que possui ponto de entrada principal, define estruturas de dados com struct, usa alocacao dinamica de memoria.
-- TAD_RNtree.c: Codigo em C/C++ que possui ponto de entrada principal, define estruturas de dados com struct, usa alocacao dinamica de memoria.
+## Como usar
+- Abra os arquivos da linguagem correspondente e execute/compile conforme a ferramenta da disciplina.

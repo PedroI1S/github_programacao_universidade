@@ -1,8 +1,10 @@
 # Ex_7
 
-Total de arquivos de programacao neste ramo: 2
+Resumo dos arquivos de codigo desta pasta e de suas funcoes no contexto da disciplina.
 
-## O que cada codigo faz
+## Arquivos de codigo
+- `Date.java`: Codigo Java que define a classe Date e sua logica associada.
+- `TesteDate.java`: Codigo Java que define a classe TesteDate e sua logica associada.
 
-- Date.java: Codigo Java que define classe(s) Date, implementa metodo(s) como getDia, setDia, getMes.
-- TesteDate.java: Codigo Java que define classe(s) TesteDate, possui metodo main para execucao, implementa metodo(s) como main.
+## Como usar
+- Abra os arquivos da linguagem correspondente e execute/compile conforme a ferramenta da disciplina.

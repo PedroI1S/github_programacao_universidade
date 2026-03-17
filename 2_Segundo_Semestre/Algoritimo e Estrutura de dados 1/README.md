@@ -1,16 +1,14 @@
 # Algoritimo e Estrutura de dados 1
 
-Total de arquivos de programacao neste ramo: 27
+Esta pasta organiza o material por subpastas. Os detalhes de implementacao estao nos READMEs internos.
 
 ## Subpastas
+- `1 - Ponteiros e Structs`
+- `2 - Alocacao dinamica`
+- `3 -TAD`
+- `4 - Listas estaticas`
+- `5 - Pilhas`
+- `6 - Filas`
 
-- 1 - Ponteiros e Structs: 5 arquivo(s) de programacao
-- 2 - Alocacao dinamica: 3 arquivo(s) de programacao
-- 3 -TAD: 4 arquivo(s) de programacao
-- 4 - Listas estaticas: 5 arquivo(s) de programacao
-- 5 - Pilhas: 5 arquivo(s) de programacao
-- 6 - Filas: 5 arquivo(s) de programacao
-
-## O que cada codigo faz
-
-- Esta pasta nao possui codigo diretamente; os codigos estao nas subpastas acima.
+## Como usar
+- Abra os arquivos da linguagem correspondente e execute/compile conforme a ferramenta da disciplina.

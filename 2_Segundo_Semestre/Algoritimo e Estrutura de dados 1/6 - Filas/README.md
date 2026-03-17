@@ -1,11 +1,13 @@
 # 6 - Filas
 
-Total de arquivos de programacao neste ramo: 5
+Resumo dos arquivos de codigo desta pasta e de suas funcoes no contexto da disciplina.
 
-## O que cada codigo faz
+## Arquivos de codigo
+- `Ex1.c`: Programa em C com funcao principal para executar e testar a logica do exercicio.
+- `Ex_nota.c`: Programa em C com funcao principal e uso de estruturas de dados.
+- `Fila.c`: Implementacao em C das operacoes de fila (insercao, remocao e consulta).
+- `Fila.h`: Cabecalho com tipos, prototipos e constantes utilizados pelos fontes C/C++ desta pasta.
+- `TAD.c`: Codigo-fonte em C com a implementacao principal do exercicio desta pasta.
 
-- Ex1.c: Codigo em C/C++ que possui ponto de entrada principal.
-- Ex_nota.c: Codigo em C/C++ que possui ponto de entrada principal, define estruturas de dados com struct, usa alocacao dinamica de memoria.
-- Fila.c: Codigo em C/C++ que define estruturas de dados com struct, usa alocacao dinamica de memoria.
-- Fila.h: Codigo em C/C++ que define estruturas de dados com struct.
-- TAD.c: Codigo em C/C++ que define estruturas de dados com struct, usa alocacao dinamica de memoria.
+## Como usar
+- Abra os arquivos da linguagem correspondente e execute/compile conforme a ferramenta da disciplina.

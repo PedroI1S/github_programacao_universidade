@@ -1,16 +1,18 @@
 # Lista 3
 
-Total de arquivos de programacao neste ramo: 10
+Resumo dos arquivos de codigo desta pasta e de suas funcoes no contexto da disciplina.
 
-## O que cada codigo faz
+## Arquivos de codigo
+- `Ex1.c`: Programa em C com funcao principal para executar e testar a logica do exercicio.
+- `Ex10.c`: Codigo-fonte em C com a implementacao principal do exercicio desta pasta.
+- `Ex11.c`: Codigo-fonte em C com a implementacao principal do exercicio desta pasta.
+- `Ex12.c`: Codigo-fonte em C com a implementacao principal do exercicio desta pasta.
+- `Ex2.c`: Codigo-fonte em C com a implementacao principal do exercicio desta pasta.
+- `Ex5.c`: Codigo-fonte em C com a implementacao principal do exercicio desta pasta.
+- `Ex6.c`: Codigo-fonte em C com a implementacao principal do exercicio desta pasta.
+- `Ex7.c`: Codigo-fonte em C com a implementacao principal do exercicio desta pasta.
+- `Ex8.c`: Codigo-fonte em C com a implementacao principal do exercicio desta pasta.
+- `Ex9.c`: Programa em C com funcao principal para executar e testar a logica do exercicio.
 
-- Ex1.c: Codigo em C/C++ que possui ponto de entrada principal.
-- Ex10.c: Codigo em C/C++ que possui ponto de entrada principal.
-- Ex11.c: Codigo em C/C++ que possui ponto de entrada principal.
-- Ex12.c: Codigo em C/C++ que possui ponto de entrada principal.
-- Ex2.c: Codigo em C/C++ que possui ponto de entrada principal.
-- Ex5.c: Codigo em C/C++ que possui ponto de entrada principal.
-- Ex6.c: Codigo em C/C++ que possui ponto de entrada principal.
-- Ex7.c: Codigo em C/C++ que possui ponto de entrada principal.
-- Ex8.c: Codigo em C/C++ que possui ponto de entrada principal.
-- Ex9.c: Codigo em C/C++ que possui ponto de entrada principal.
+## Como usar
+- Abra os arquivos da linguagem correspondente e execute/compile conforme a ferramenta da disciplina.
