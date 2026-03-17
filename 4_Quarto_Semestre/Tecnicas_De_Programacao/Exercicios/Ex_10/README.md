@@ -4,8 +4,8 @@ Total de arquivos de programacao neste ramo: 5
 
 ## O que cada codigo faz
 
-- Anexo.java: Codigo Java que define classe(s) Anexo, DocumentoAnexo, implementa metodo(s) como addDocumento, toString, toString.
-- CaixaEmail.java: Codigo Java que define classe(s) CaixaEmail, implementa metodo(s) como escreveEmail, excluirEmail.
-- Data.java: Codigo Java que define classe(s) Data, implementa metodo(s) como validaData, anoBissexto, toString.
-- Email.java: Codigo Java que define classe(s) Email, implementa metodo(s) como getDe, getPara, getAssunto.
-- SistemaEmail.java: Codigo Java que define classe(s) SistemaEmail, possui metodo main para execucao, implementa metodo(s) como main.
+- Anexo.java: Classe Java Anexo com implementacao de entidade/funcionalidade do exercicio.
+- CaixaEmail.java: Classe Java CaixaEmail com implementacao de entidade/funcionalidade do exercicio.
+- Data.java: Classe Java Data com implementacao de entidade/funcionalidade do exercicio.
+- Email.java: Classe Java Email com implementacao de entidade/funcionalidade do exercicio.
+- SistemaEmail.java: Classe Java SistemaEmail com metodo main para demonstracao/teste.

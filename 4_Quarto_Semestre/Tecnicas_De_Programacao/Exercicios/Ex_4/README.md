@@ -4,6 +4,6 @@ Total de arquivos de programacao neste ramo: 3
 
 ## O que cada codigo faz
 
-- Rational.java: Codigo Java que define classe(s) Rational, implementa metodo(s) como Reduzir, Sum, Sub.
-- RationalDemo.java: Codigo Java que define classe(s) RationalDemo, possui metodo main para execucao, implementa metodo(s) como main.
-- teste.java: Codigo Java que define classe(s) teste, possui metodo main para execucao, implementa metodo(s) como main.
+- Rational.java: Classe Java Rational de exercicio de POO e encapsulamento.
+- RationalDemo.java: Classe Java RationalDemo de exercicio de POO e encapsulamento.
+- teste.java: Classe Java teste com metodo main para demonstracao/teste.

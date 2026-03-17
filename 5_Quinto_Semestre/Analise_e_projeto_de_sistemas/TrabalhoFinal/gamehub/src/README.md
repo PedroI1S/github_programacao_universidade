@@ -4,13 +4,13 @@ Total de arquivos de programacao neste ramo: 10
 
 ## O que cada codigo faz
 
-- Administrador.java: Codigo Java que define classe(s) Administrador, implementa metodo(s) como gerenciarCatalogo.
-- Avaliacao.java: Codigo Java que define classe(s) Avaliacao.
-- BibliotecaDeJogos.java: Codigo Java que define classe(s) BibliotecaDeJogos, implementa metodo(s) como adicionarJogo.
-- Carrinho.java: Codigo Java que define classe(s) Carrinho, implementa metodo(s) como adicionarJogo, removerJogo, esvaziarCarrinho.
-- Catalogo.java: Codigo Java que define classe(s) Catalogo, implementa metodo(s) como adicionarJogo, removerJogo.
-- Cliente.java: Codigo Java que define classe(s) Cliente, implementa metodo(s) como avaliarJogo, finalizarCompra, verCarrinho.
-- Genero.java: Codigo Java que define classe(s) Genero, implementa metodo(s) como getIdGenero, setIdGenero, getNome.
-- Jogo.java: Codigo Java que define classe(s) Jogo, implementa metodo(s) como adicionarAvaliacao, getCodigo, setCodigo.
-- Pedido.java: Codigo Java que define classe(s) Pedido, implementa metodo(s) como getNumeroPedido, setNumeroPedido, adicionarJogo.
-- Usuario.java: Codigo Java que define classe(s) Usuario, implementa metodo(s) como realizarLogin, buscarEmail, getNome.
+- Administrador.java: Classe Java Administrador do sistema GameHub (modelo de dominio da loja de jogos).
+- Avaliacao.java: Classe Java Avaliacao com implementacao de entidade/funcionalidade do exercicio.
+- BibliotecaDeJogos.java: Classe Java BibliotecaDeJogos do sistema GameHub (modelo de dominio da loja de jogos).
+- Carrinho.java: Classe Java Carrinho do sistema GameHub (modelo de dominio da loja de jogos).
+- Catalogo.java: Classe Java Catalogo do sistema GameHub (modelo de dominio da loja de jogos).
+- Cliente.java: Classe Java Cliente do sistema GameHub (modelo de dominio da loja de jogos).
+- Genero.java: Classe Java Genero com implementacao de entidade/funcionalidade do exercicio.
+- Jogo.java: Classe Java Jogo do sistema GameHub (modelo de dominio da loja de jogos).
+- Pedido.java: Classe Java Pedido do sistema GameHub (modelo de dominio da loja de jogos).
+- Usuario.java: Classe Java Usuario com implementacao de entidade/funcionalidade do exercicio.

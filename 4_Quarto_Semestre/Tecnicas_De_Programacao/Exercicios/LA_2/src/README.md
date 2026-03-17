@@ -4,18 +4,18 @@ Total de arquivos de programacao neste ramo: 15
 
 ## O que cada codigo faz
 
-- Bicicleta.java: Codigo Java que define classe(s) Bicicleta, implementa metodo(s) como calibrarPneu, pneusCalibrados, move.
-- Calibravel.java: Codigo Java que implementa metodo(s) como calibrarPneu, pneusCalibrados.
-- CarroEsportivo.java: Codigo Java que define classe(s) CarroEsportivo, implementa metodo(s) como calibrarPneu, pneusCalibrados, desenhar.
-- CarroPasseio.java: Codigo Java que define classe(s) CarroPasseio, implementa metodo(s) como calibrarPneu, pneusCalibrados, desenhar.
-- Desenhavel.java: Codigo Java que implementa metodo(s) como desenhar.
-- Motocicleta.java: Codigo Java que define classe(s) Motocicleta, implementa metodo(s) como calibrarPneu, pneusCalibrados, desenhar.
-- Motor.java: Codigo Java que define classe(s) Motor, implementa metodo(s) como converterGiroParaKmh, acelerar, getModo.
-- Reabastecivel.java: Codigo Java que implementa metodo(s) como abastecerCombustivel.
-- Recarregavel.java: Codigo Java que implementa metodo(s) como carregarBateria.
-- Roda.java: Codigo Java que define classe(s) Roda, implementa metodo(s) como setCalibragem, getCalibragem, toString.
-- Simulador.java: Codigo Java que define classe(s) Simulador, implementa metodo(s) como incluiVeiculo, moveVeiculos, calibrarTodosPneus.
-- usaSimulador.java: Codigo Java que define classe(s) usaSimulador, possui metodo main para execucao, implementa metodo(s) como main.
-- Veiculo.java: Codigo Java que define classe(s) Veiculo, implementa metodo(s) como pneusCalibrados, move, toString.
-- VeiculoHibrido.java: Codigo Java que define classe(s) VeiculoHibrido, implementa metodo(s) como move, abastecerCombustivel, carregarBateria.
-- VeiculoSemMotor.java: Codigo Java que define classe(s) VeiculoSemMotor.
+- Bicicleta.java: Classe Java Bicicleta com implementacao de entidade/funcionalidade do exercicio.
+- Calibravel.java: Codigo Java Calibravel com metodos de apoio a exercicio da disciplina.
+- CarroEsportivo.java: Classe Java CarroEsportivo com implementacao de entidade/funcionalidade do exercicio.
+- CarroPasseio.java: Classe Java CarroPasseio com implementacao de entidade/funcionalidade do exercicio.
+- Desenhavel.java: Codigo Java Desenhavel com metodos de apoio a exercicio da disciplina.
+- Motocicleta.java: Classe Java Motocicleta com implementacao de entidade/funcionalidade do exercicio.
+- Motor.java: Classe Java Motor com implementacao de entidade/funcionalidade do exercicio.
+- Reabastecivel.java: Codigo Java Reabastecivel com metodos de apoio a exercicio da disciplina.
+- Recarregavel.java: Codigo Java Recarregavel com metodos de apoio a exercicio da disciplina.
+- Roda.java: Classe Java Roda com implementacao de entidade/funcionalidade do exercicio.
+- Simulador.java: Classe Java Simulador com implementacao de entidade/funcionalidade do exercicio.
+- usaSimulador.java: Classe Java usaSimulador com metodo main para demonstracao/teste.
+- Veiculo.java: Classe Java Veiculo com implementacao de entidade/funcionalidade do exercicio.
+- VeiculoHibrido.java: Classe Java VeiculoHibrido com implementacao de entidade/funcionalidade do exercicio.
+- VeiculoSemMotor.java: Classe Java VeiculoSemMotor com implementacao de entidade/funcionalidade do exercicio.

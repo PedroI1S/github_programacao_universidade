@@ -8,4 +8,4 @@ Total de arquivos de programacao neste ramo: 7
 
 ## O que cada codigo faz
 
-- teste.py: Script Python com logica de exercicio/pratica da disciplina.
+- teste.py: Script Python de apoio a exercicios da disciplina.

@@ -8,6 +8,6 @@ Total de arquivos de programacao neste ramo: 9
 
 ## O que cada codigo faz
 
-- OlaMundo.java: Codigo Java que define classe(s) OlaMundo, possui metodo main para execucao, implementa metodo(s) como main.
-- Segundo.java: Codigo Java que define classe(s) Segundo, possui metodo main para execucao, implementa metodo(s) como main.
-- Terceiro.java: Codigo Java que define classe(s) Terceiro, possui metodo main para execucao, implementa metodo(s) como main.
+- OlaMundo.java: Classe Java OlaMundo com metodo main para demonstracao/teste.
+- Segundo.java: Classe Java Segundo com metodo main para demonstracao/teste.
+- Terceiro.java: Classe Java Terceiro com metodo main para demonstracao/teste.

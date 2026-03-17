@@ -12,4 +12,4 @@ Total de arquivos de programacao neste ramo: 63
 
 ## O que cada codigo faz
 
-- OlaMundoThread.java: Codigo Java que define classe(s) OlaMundoThread, possui metodo main para execucao, implementa metodo(s) como run, main.
+- OlaMundoThread.java: Classe Java OlaMundoThread para exercicio de threads/concorrrencia.

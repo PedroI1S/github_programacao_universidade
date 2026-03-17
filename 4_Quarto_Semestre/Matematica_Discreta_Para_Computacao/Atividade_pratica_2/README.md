@@ -4,4 +4,4 @@ Total de arquivos de programacao neste ramo: 1
 
 ## O que cada codigo faz
 
-- menu.c: Codigo em C/C++ que possui ponto de entrada principal.
+- menu.c: Codigo em C que possui funcao principal de execucao.
